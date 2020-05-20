@@ -34,6 +34,7 @@ ini_set('max_execution_time', 300);
 		//$txn->SILENTPOSTURL 	= 'http://localhost/test/payflow/test.php';
 		$txn->RETURNURL = 'http://localhost/Source_codes/Payflow_transparent/success.php';
 		$txn->ERRORURL 	= 'http://localhost/Source_codes/Payflow_transparent/error.php';
+		$txn->CANCELURL = 'http://localhost/Source_codes/Payflow_transparent/error.php';
 		
 		/**/
 		//https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/transaction_type_codes.htm
